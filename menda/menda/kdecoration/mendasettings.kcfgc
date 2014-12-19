@@ -1,0 +1,6 @@
+File=mendasettingsdata.kcfgc
+ClassName=InternalSettings
+NameSpace=Menda
+Singleton=false
+Mutators=true
+GlobalEnums=true

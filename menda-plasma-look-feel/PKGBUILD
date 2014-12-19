@@ -1,0 +1,23 @@
+# Maintainer: anex <assassin.anex[@]gmail.com>
+ 
+pkgname=menda-look-feel-git
+pkgver=20141122
+pkgrel=1
+arch=('any')
+pkgdesc="Manjaro's Plasma Look and Feel Plugin"
+url="https://github.com/anexation/artwork-menda-plasma"
+license=('GPL3')
+depends=('plasma-desktop' 'menda-git' 'menda-kde4-git' 
+'menda-plasma-desktop-git')
+makedepends=('git')
+optdepends=('menda-themes' 'menda-themes-dark')
+replaces=('kdeplasma-next-menda-git')
+source=("git+https://github.com/anexation/menda-plasma-next.git")
+sha1sums=('SKIP')
+
+package() {
+  cd menda-plasma-next/menda-plasma-look-feel
+  
+  install -dm755 "$pkgdir"/usr/share/plasma/look-and-feel
+  cp -dr --no-preserve=ownership org.kde.menda.desktop "$pkgdir"/usr/share/plasma/look-and-feel
+}

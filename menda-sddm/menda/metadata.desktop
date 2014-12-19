@@ -1,0 +1,16 @@
+[SddmGreeterTheme]
+Name=Menda
+Description=Menda Theme
+Author=n/a
+Copyright=n/a
+License=n/a
+Type=sddm-theme
+Version=0.1
+Website=https://github.com/sddm/sddm
+Screenshot=menda.png
+MainScript=Main.qml
+ConfigFile=theme.conf
+TranslationsDirectory=translations
+Email=n/a
+Theme-Id=menda
+Theme-API=2.0

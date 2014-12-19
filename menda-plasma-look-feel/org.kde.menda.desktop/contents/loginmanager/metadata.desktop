@@ -1,0 +1,16 @@
+[SddmGreeterTheme]
+Name=Menda
+Description=Menda Sddm Theme
+Author=anex
+Copyright=n/a
+License=n/a
+Type=sddm-theme
+Version=0.1
+Website=https://manjaro.org
+Screenshot=menda.png
+MainScript=Main.qml
+ConfigFile=theme.conf
+TranslationsDirectory=translations
+Email=assassin.anex@gmail.com
+Theme-Id=menda
+Theme-API=2.0

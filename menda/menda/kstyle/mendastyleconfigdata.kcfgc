@@ -1,0 +1,6 @@
+File=menda.kcfgc
+ClassName=StyleConfigData
+NameSpace=Menda
+Singleton=true
+Mutators=true
+GlobalEnums=true

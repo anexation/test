@@ -1,0 +1,18 @@
+[Desktop Entry]
+Comment=Manjaro's Menda Desktop Design.
+Encoding=UTF-8
+Keywords=Desktop, Workspace, Appearance, Look and Feel, Logout, Lock, Suspend, Shutdown, Hibernate,
+Name=Menda
+Type=Service
+
+X-KDE-ServiceTypes=Plasma/LookAndFeel
+X-KDE-ParentApp=
+X-KDE-PluginInfo-Author=anex
+X-KDE-PluginInfo-Category=
+X-KDE-PluginInfo-Email=assassin.anex@gmail.com
+X-KDE-PluginInfo-License=GPLv2+
+X-KDE-PluginInfo-Name=org.kde.menda.desktop
+X-KDE-PluginInfo-Version=2.0
+X-KDE-PluginInfo-Website=http://manjaro.org
+X-KDE-fallbackPackage=org.kde.breeze.desktop
+X-Plasma-MainScript=defaults

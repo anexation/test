@@ -1,0 +1,2 @@
+
+INSTALL(FILES Menda.qtcurve DESTINATION ${DATA_INSTALL_DIR}/QtCurve/)

@@ -1,0 +1,21 @@
+# Maintainer: anex <assassin.anex[@]gmail.com>
+ 
+pkgname=menda-plasma-desktop-git
+pkgver=20141121
+pkgrel=1
+arch=('any')
+pkgdesc="Manjaro's Plasma Next Theme"
+url="https://github.com/anexation/artwork-menda-plasma"
+license=('GPL3')
+depends=('plasma-desktop')
+optdepends=('menda-git' 'menda-kde4-git')
+replaces=('kdeplasma-next-menda-git')
+source=("git+https://github.com/anexation/menda-plasma-next.git")
+sha1sums=('SKIP')
+
+package() {
+  cd menda-plasma-next/menda-plasma-desktop
+  
+  install -dm755 "$pkgdir"/usr/share/plasma/desktoptheme
+  cp -dr --no-preserve=ownership Menda "$pkgdir"/usr/share/plasma/desktoptheme
+}

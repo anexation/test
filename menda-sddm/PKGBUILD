@@ -1,0 +1,20 @@
+# Maintainer: anex <assassin.anex[@]gmail.com>
+ 
+pkgname=menda-sddm-git
+pkgver=20141124
+pkgrel=1
+arch=('any')
+pkgdesc="Manjaro's plasma next sddm theme"
+url="https://github.com/anexation/artwork-menda-plasma"
+license=('GPL3')
+depends=('sddm')
+makedepends=('git')
+source=("menda.zip")
+sha1sums=('SKIP')
+
+package() {
+  
+  
+  install -dm755 "$pkgdir"/usr/share/sddm/themes
+  cp -dr --no-preserve=ownership menda "$pkgdir"/usr/share/sddm/themes
+}

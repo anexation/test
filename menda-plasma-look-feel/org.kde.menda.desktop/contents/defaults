@@ -1,0 +1,14 @@
+[kdeglobals][KDE]
+widgetStyle=menda
+
+[kdeglobals][General]
+ColorScheme=Menda
+
+[kdeglobals][Icons]
+Theme=Menda-Circle
+
+[plasmarc][Theme]
+name=Menda
+
+[kcminputrc][Mouse]
+cursorTheme=Menda-Cursor
